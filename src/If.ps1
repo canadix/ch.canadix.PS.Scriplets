@@ -11,19 +11,16 @@ if($test){
     }
 else{
    echo "Wert von Test ist null oder undefiniert"
-   }
+		switch(Read-Host "Wählen Sie einen Menüpunkt"){
+			1 {"Datei wird $test1 gelöscht"}
+			2 {"Datei wird angezeigt"}
+			3 {"Datei erhält Schreibschutz"}
+			default {"Ungültige Eingabe"}
+	}
+}
+   
+   
 
 if(Test-Path *.gif){gci *.gif|foreach{$len += $_.length}; Write-Host $len " Bytes"}
 
-switch(Read-Host "Wählen Sie einen Menüpunkt"){
-1 {"Datei wird gelöscht"}
-2 {"Datei wird angezeigt"}
-3 {"Datei erhält Schreibschutz"}
-default {"Ungültige Eingabe"}
-}
 
-switch -wildcard("PowerShell"){
-"Power*" {echo "'*' steht für 'shell'"}
-"*ersh*" {echo "'*' ersetzen 'Pow' und 'ell'"}
-"PowerShe??" {echo "Muster passt, weil ?? zwei 'l' ersetzt"}
-}

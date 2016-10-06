@@ -60,4 +60,38 @@ Return the last element in an array:
 
 $myArray[-1]
 
+<#
+	range, separating them with a +
+#>
+$myArray[1,2+4..9]
 
+
+<#
+	get-member - >  $myarray
+#>
+
+
+PS U:\> get-member -InputObject $myArray
+
+
+   TypeName: System.Int32[]
+
+Name           MemberType            Definition
+----           ----------            ----------
+Count          AliasProperty         Count = Length
+Add            Method                int IList.Add(Syst
+Address        Method                System.Int32&, msc
+Clear          Method                void IList.Clear()
+
+<#
+	array assignment operator (=)
+#>
+
+$myArray[4]=64
+$myArray.SetValue(64,4)
+<#
+	array $march + $april
+#>
+$march=@(2, 3, 4, 5, 6)
+$april=@(7, 8, 9, 10, 11, 12)
+$all = $march + $april
