@@ -37,3 +37,28 @@ PS> Do { $val++ ; Write-Host $val } while($val -ne 10)
  PS> Do { $val++ 
           Write-Host $val
         } while($val -ne 10) 
+
+
+$numbers = 1
+
+do {
+
+$numbers = $numbers + 1
+
+write-host "The current value of the variable is $numbers"
+
+
+} While ($numbers –lt 10) 
+
+
+
+
+
+
+
+
+
+
+
+
+

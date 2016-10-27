@@ -1,0 +1,8 @@
+
+https://mva.microsoft.com/en-US/training-courses/getting-started-with-powershell-30-jump-start-8276?l=r54IrOWy_2304984382 
+ 
+http://www.computerworld.com/article/2879205/data-center/powershell-for-beginners-scripts-and-loops.html 
+ 
+https://blog.udemy.com/powershell-tutorial/ 
+
+https://www.youtube.com/playlist?list=PL6D474E721138865A 
