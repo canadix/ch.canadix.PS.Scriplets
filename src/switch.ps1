@@ -44,7 +44,9 @@ Key
 	Switch 
 #>
 
-switch(Read-Host "Wählen Sie einen Menüpunkt"){
+switch(Read-Host "Wählen Sie einen Menüpunkt")
+
+{
 1 {"Datei wird gelöscht"}
 2 {"Datei wird angezeigt"}
 3 {"Datei erhält Schreibschutz"}

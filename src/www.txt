@@ -6,3 +6,8 @@ http://www.computerworld.com/article/2879205/data-center/powershell-for-beginner
 https://blog.udemy.com/powershell-tutorial/ 
 
 https://www.youtube.com/playlist?list=PL6D474E721138865A 
+
+
+powershell.org
+
+"learn windows Powershell 3 in a month of lunches" don jones and jeffery hicks
