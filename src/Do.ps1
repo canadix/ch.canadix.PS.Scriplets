@@ -48,7 +48,7 @@ $numbers = $numbers + 1
 write-host "The current value of the variable is $numbers"
 
 
-} While ($numbers –lt 10) 
+} While ($numbers -lt 10) 
 
 
 
