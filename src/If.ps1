@@ -91,5 +91,32 @@ write-host "You're really terrible at math, aren't you?"
 
 }
 
+$y = $null
+
+if ($x -eq 2)
+{
+
+    Write-Host "x is equal to 2"
+
+}elseif ($x -eq 3)
+{
+
+    Write-Host "x is equel to 3"
+
+}
+
+$y = $null
+
+if($y)
+{
+
+    write-host 'y is equal to something other than null or boolean false'
+
+}else
+{
+
+    write-host 'y has a null or boolean false value'
+
+}
 
 
